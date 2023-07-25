@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_art_order"
+            android:visible="false"
+            android:icon="@drawable/sharp_add_task_24"
+            android:title="@string/menu_add_order" />
+        <item
+            android:id="@+id/nav_art_orders"
+            android:icon="@drawable/baseline_dynamic_feed_24"
+            android:title="@string/menu_art_orders" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/baseline_connected_tv_24"
+            android:title="@string/menu_social" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/baseline_note_alt_24"
+            android:title="@string/menu_services" />
+        <item
+            android:id="@+id/nav_qrcode"
+            android:icon="@drawable/baseline_qr_code_24"
+            android:title="@string/menu_qrcode" />
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Island Art Store</string>
+    <string name="nav_header_subtitle">Art Ordering App</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_add_order">Add Order</string>
+    <string name="menu_art_orders">Art Orders</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_social">Social Media</string>
+    <string name="menu_qrcode">QR Code</string>
+
+    <string name="app_name">IslandArt</string>
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="buttonAddOrder">Submit Order</string>
+    <string name="labelAddOrder">Add Order</string>
+    <string name="labelSave">Save</string>
+    <string name="labelCustomerName">Customer Name</string>
+    <string name="labelPaintingName">Painting Name</string>
+    <string name="labelCustomerAddress">Customer Address</string>
+    <string name="labelLoadFromRoom">Load From Room When No Network</string>
+    <string name="labelNumberOfPaintings">Number of Paintings</string>
+    <string name="labelCostOfPainting">Cost per Painting$</string>
+    <string name="labelViewOrders">View Orders</string>
+    <string name="preference_load_from_room">Load from Room</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="OFFserver_client_id">630291983338-sh63jmp2v7vg52hpuqaitj477i1vrabl.apps.googleusercontent.com</string>
+    <string name="messageArtOrderCreated">Art Order is successfully added</string>
+    <string name="messageArtOrderCreationError">Error creating art order. Check that all fields are provided</string>
+
+    <string name="messageError">Error occured</string>
+
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/textViewNameIcon"
+        android:background="@drawable/icon_bg"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCostPerPainting"
+        android:layout_toEndOf="@id/textViewNameIcon"
+        android:layout_marginBottom="2dp"
+        android:text="Cost per Painting $:"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCostPerPaintingEntered"
+        android:layout_toEndOf="@id/textViewCostPerPainting"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNumberOfPaintings"
+        android:layout_toEndOf="@id/textViewNameIcon"
+        android:layout_below="@id/textViewCostPerPainting"
+        android:layout_marginBottom="2dp"
+        android:text="Number of Paintings:"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNumberOfPaintingsEntered"
+        android:layout_toEndOf="@id/textViewNumberOfPaintings"
+        android:layout_below="@id/textViewCostPerPaintingEntered"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDateOfOrder"
+        android:layout_toEndOf="@id/textViewNameIcon"
+        android:layout_below="@id/textViewNumberOfPaintings"
+        android:layout_marginBottom="2dp"
+        android:text="Date of Order:"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDateOfOrderEntered"
+        android:layout_toEndOf="@id/textViewDateOfOrder"
+        android:layout_below="@id/textViewNumberOfPaintingsEntered"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCostOfOrders"
+        android:layout_toEndOf="@id/textViewNameIcon"
+        android:layout_below="@id/textViewDateOfOrder"
+        android:layout_marginBottom="2dp"
+        android:text="Cost of Orders:"
+        android:textSize="15dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCostOfOrdersEntered"
+        android:layout_toEndOf="@id/textViewCostOfOrders"
+        android:layout_below="@id/textViewDateOfOrderEntered"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPaintingName"
+        android:layout_toEndOf="@id/textViewNameIcon"
+        android:layout_below="@+id/textViewCostOfOrders"
+        android:layout_marginBottom="2dp"
+        android:text="Painting Name:"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPaintingNameEntered"
+        android:layout_toEndOf="@id/textViewPaintingName"
+        android:layout_below="@+id/textViewCostOfOrdersEntered"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewCustomerAddress"
+            android:layout_toEndOf="@id/textViewNameIcon"
+            android:layout_below="@id/textViewPaintingName"
+            android:layout_marginBottom="2dp"
+            android:text="Customer Address:"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewCustomerAddressEntered"
+            android:layout_toEndOf="@id/textViewCustomerAddress"
+            android:layout_below="@id/textViewPaintingNameEntered"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#DAD8D8"/>
+
+</RelativeLayout>
